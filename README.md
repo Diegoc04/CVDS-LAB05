@@ -16,6 +16,7 @@ Teniendo en cuenta los parámetros del comando telnet:
 ```sh
 $ telnet HOST PORT
 ```
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/89041250/27352f28-1ed6-42e6-bc54-4baa09911189)  
 
 3. Antes de que el servidor cierre la conexión por falta de comunicación:
 
