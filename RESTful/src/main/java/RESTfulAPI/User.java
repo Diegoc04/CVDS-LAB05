@@ -34,7 +34,7 @@ public class User {
         this.title = title;
     }
 
-    public void setCompleted(){
+    public void setCompleted(boolean completed){
         this.completed = completed;
     }
 }
