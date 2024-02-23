@@ -4,7 +4,11 @@
 
 ### PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 1. Abra una terminal Linux o consola de comandos Windows.
-2. Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
+
+Habilitamos telnet en nuestro dispositivo  
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/89041250/bb673352-2e82-4e13-97fd-19bd4620064b)  
+   
+3. Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
 - Host: www.escuelaing.edu.co
 - Puerto: 80
 Teniendo en cuenta los parámetros del comando telnet:
@@ -12,6 +16,7 @@ Teniendo en cuenta los parámetros del comando telnet:
 ```sh
 $ telnet HOST PORT
 ```
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/89041250/27352f28-1ed6-42e6-bc54-4baa09911189)  
 
 3. Antes de que el servidor cierre la conexión por falta de comunicación:
 
@@ -75,9 +80,18 @@ En este ejercicio, va a implementar una aplicación Web muy básica, haciendo us
 Para esto usaremos la documentación oficial de Spring con que que aprenderemos las funciones básicas de este framework https://spring.io/guides/gs/serving-web-content/
 
 Después de terminar el aprendizaje analice:
-- ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial) 
+- ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial)
+
+   * Obtiene ese nombre de las funciones framework que siguen el diseño modelo-vista-controlador
+  
 - ¿Cuáles son las ventajas de usar MVC?
+
+   * Una de las ventajas de de usar MVC es la de separa roles, tiene configuraciones de frameworks poderosas y aplicaciones, en donde nos sirven como ayuda a el desarrollo de programas y nos facilitan el              testeo y la reutilizacion de clases
+  
 - ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
+
+   * Se diferencian que los direcorios radican en la simpleza de los directorios en donde se pueden ver proyectos mas organizados y limpios al momento de presentarlos
+  
 - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
 
 ### PARTE III. - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
