@@ -23,6 +23,8 @@ $ telnet HOST PORT
 Revise el RFC del protocolo HTTP, sobre cómo realizar una petición GET.
 Debe lucir más o menos de esta forma:
 
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/77862071/f54a0135-e1e4-4efd-b720-249985384b8b)
+
 ```yml
 GET /with-a-resource.html HTTP/1.0
 Host: www.escuelaing.edu.co
@@ -31,6 +33,9 @@ Host: www.escuelaing.edu.co
 Con esto, solicite al servidor el recurso `sssss/abc.html`, usando la versión 1.0 de HTTP.
 Copie las dos lineas de codigo con el recurso agregado y peguelas en la consola del servidor ya abierta.
 Asegúrese de presionar ENTER dos veces después de ingresar el comando.
+
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/77862071/6de46d38-0ca8-4a04-8403-36c6c8c33f1f)
+
 
 Revise el resultado obtenido.
 
@@ -46,6 +51,12 @@ Versión HTTP: 1.1
 ```
 
 Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
+
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/77862071/e95f3e9f-0330-4a5d-9492-d83f8414a1dd)
+
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/77862071/7b5ebdd2-05a7-46f2-b327-c8e115a2556d)
+
+
 
 ¡Muy bien!, ¡Acaba de usar del protocolo HTTP sin un navegador Web!. Cada vez que se usa un navegador, éste se conecta a un servidor HTTP, envía peticiones
 del protocolo HTTP, espera el resultado de las mismas, y si se trata de contenido HTML lo interpreta y dibuja.
