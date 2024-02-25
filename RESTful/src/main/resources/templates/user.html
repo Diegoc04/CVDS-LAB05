@@ -1,0 +1,32 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User page</title>
+    <link th:href="@{/css/style.css}" rel=" hoja de estilo" />
+</head>
+<body>
+<h1>User details</h1>
+    <div class = "main_container">
+        <div class="row">
+            <div class="left">userId:</div>
+            <div class="left" th:text="${user.userId}"></div>
+        </div>
+
+        <div class="row">
+            <div class="left">id: </div>
+            <div class="left" th:text="${user.id}"></div>
+        </div>
+
+        <div class="row">
+            <div class="left">title : </div>
+            <div class="left" th:text="${user.title}"></div>
+        </div>
+
+        <div class="row">
+            <div class="left">completed: </div>
+            <div class="left"
+                 th:text="${user.completed}">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
