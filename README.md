@@ -196,9 +196,11 @@ Analice las siguientes situaciones:
 ## PARTE 4
 
 - ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
-   - 
+   - Se abriran dos paginas cada una con su respectivo id de sesión, por lo que funcionan de manera normal y de forma independiente.
 - Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?
-   - 
+   - No es necesario hacer nada, como explicabamos en la respuesta anterior, las sesiones son independientes, por lo que cada pagina es diferente y mostrará los respectivos saldos.  
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/89041250/f032a07b-72b2-4206-99f3-71a449aeddfd)  
+
   
 ## ENTREGA
 - En un README.md colocar lo siguiente:
