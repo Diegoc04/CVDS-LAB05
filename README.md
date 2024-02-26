@@ -184,15 +184,12 @@ Analice las siguientes situaciones:
    - Se diferencian que los direcorios radican en la simpleza de los directorios en donde se pueden ver proyectos mas organizados y limpios al momento de presentarlos
 
 - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
-   -
+   - @Controller se utiliza para establecer una clase como un controlador y @RequestMapping se utiliza para mapear las solicitudes web a metodos de controladores especificos.
 ## PARTE 3
 
 - ¿Qué es RESTful?
-   - Es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet  
-
-- Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, ¿en qué capa se haría su uso?
-- 
-
+   - Es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet
+     
 ## PARTE 4
 
 - ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
