@@ -135,6 +135,12 @@ Analice las siguientes situaciones:
 - ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
 - Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?
 
+# INTEGRANTES
+
+1) Daniel Santiago Torres Acosta
+2) Miguel Camilo Tellez Avila
+3) Diego Fernando Castellanos Amaya
+   
 # RESPUESTAS
 
 ## PARTE 1
@@ -185,6 +191,7 @@ Analice las siguientes situaciones:
    - Es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet  
 
 - Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, ¿en qué capa se haría su uso?
+- 
 
 ## PARTE 4
 
@@ -195,7 +202,7 @@ Analice las siguientes situaciones:
   
 ## ENTREGA
 - En un README.md colocar lo siguiente:
-- Una sección llamada “INTEGRANTES” y allícolocar el listado de los integrantes del taller (máximo 2).
+- Una sección llamada “INTEGRANTES”.
 - Una sección llamada “RESPUESTAS” colocar lasrespuestas a las preguntas:
 - Configurar el archivo .gitignore para excluir del repositorio los archivos no relevantes.
 - En una carpeta en la raiz del repositorio llamada diagrams y allí realizar un diagrama de clases del proyecto.
