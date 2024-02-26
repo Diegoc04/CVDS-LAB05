@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Juego de Adivinar Número</title>
+    <script>
+        var dineroActual = 0; // Variable para almacenar el dinero actual del jugador
+        
+        function jugar() {
+            // Generar un número aleatorio del 1 al 10
+            var numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+            
+            // Solicitar al usuario que ingrese un número
+            var numeroUsuario = prompt("Adivina un número del 1 al 10:");
+            
+            // Verificar si el número ingresado por el usuario es correcto
+            if (numeroUsuario != null) {
+                if (parseInt(numeroUsuario) === numeroAleatorio) {
+                    dineroActual += 100000; // Sumar 100.000 al dinero actual si el usuario acierta
+                    alert("¡Felicidades! Has ganado 100.000");
+                } else {
+                    dineroActual -= 10000; // Restar 10.000 al dinero actual si el usuario falla
+                    alert("Lo siento, el número correcto era " + numeroAleatorio + ". Has perdido 10.000.");
+                }
+                
+                // Actualizar el texto que muestra el dinero actual
+                document.getElementById("dinero-actual").innerText = "Su dinero actual es: " + dineroActual;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Bienvenido al Juego de Adivinar Número</h1>
+    <p id="dinero-actual">Su dinero actual es: 0</p>
+    <button onclick="jugar()">Jugar</button>
+</body>
+</html>
