@@ -185,7 +185,13 @@ Analice las siguientes situaciones:
 
 - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
    - @Controller se utiliza para establecer una clase como un controlador y @RequestMapping se utiliza para mapear las solicitudes web a metodos de controladores especificos.
-## PARTE 3
+
+# // Para poder abrir los htmls, es necesario abrir el programa y dar en :
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/89041250/2a80d892-84b8-4b20-86e3-3b8c5acde25a)    
+
+![image](https://github.com/Diegoc04/CVDS-LAB05/assets/89041250/256c57e1-b737-4e29-92ff-7ed78f8d93d2)  
+
+## PARTE 3  
 
 - ¿Qué es RESTful?
    - Es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet
